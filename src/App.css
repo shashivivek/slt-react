@@ -50,7 +50,7 @@ body{
 }
 
 .logo{
-  width: 6.5rem;
+  width: 7.5rem;
 }
 
 nav a.nav-link {
@@ -76,4 +76,45 @@ nav ul li{
 .navbar-nav > li,  .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid vqr (--primary-orange);
 
+}
+
+
+/***********Header*************/
+
+.header-wraper{
+  position: relative;
+  background: url(bgg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-info h1{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 8rem;
+
+}
+
+.main-info h3{
+  color: var(--primary-white);
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.main-info h4{
+  font-size: 1rem;
+  color: var(--primary-white);
+  margin-top: 0.5rem;
 }
